@@ -70,8 +70,8 @@ export const TETROMINOS = {
 }
 
 export const randoTetro = () => {
-    const tetros = 'IJLOSTZ';
-    const getRando = tetros[Math.floor(Math.random() * tetros.length)]
+    const tetrominos = 'IJLOSTZ';
+    const getRando = tetrominos[Math.floor(Math.random() * tetrominos.length)]
 
-    return TETROMINOS(getRando)
+    return TETROMINOS[getRando]
 }
